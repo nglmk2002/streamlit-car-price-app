@@ -26,7 +26,7 @@ def main():
     choice = st.sidebar.selectbox('Menu',menu)
 
     if choice == 'Home':
-        st.write('이 앱은 자동차')
+        st.write('이 앱은 자동차 예측 모델입니다.')
     
     elif choice == 'EDA':
         run_eda_app()
